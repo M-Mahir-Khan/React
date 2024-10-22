@@ -1,0 +1,15 @@
+.counter-container{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    page-break-inside: 15px;
+    padding: 1.5rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+}
+
+#para{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
