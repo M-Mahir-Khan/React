@@ -12,7 +12,6 @@ function App() {
     console.log("inside expensive task");
     for(let i = 0; i <= 100000000; i++){}
     return input * 2
-    
   }
 
   let doubleVal = useMemo(()=> expensiveTask(input), [input])
