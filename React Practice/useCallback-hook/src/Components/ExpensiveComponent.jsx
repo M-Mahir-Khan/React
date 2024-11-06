@@ -14,6 +14,7 @@ const ExpensiveComponent = () => {
       }
       return result
     },[count])
+    
 
     useEffect(() => {
       if(previousFunction.current){
