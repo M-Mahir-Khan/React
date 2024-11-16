@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Five = () => {
-  return (
-    <div>Five</div>
-  )
+    const [isToggled , setIsToggled] = useState(false)
+
+    function handleToggle(){
+        setIsToggled(!isToggled)
+    }
+
+    return (
+        <div>
+            <label>
+                <input type="checkbox" onChange={handleToggle}/>
+                <h2>{isToggled ? "On": "Off"}</h2>
+            </label>
+        </div>
+    )
 }
 
 export default Five
