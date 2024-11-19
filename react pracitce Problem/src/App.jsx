@@ -6,6 +6,9 @@ import Two from './components/Two'
 import Five from './components/Five'
 import Six from './components/Six'
 import Seven from './components/Seven'
+import Eight from './components/Eight'
+import Ten from './components/Ten'
+import Nine from './components/Nine'
 function App() {
 
 
@@ -30,7 +33,16 @@ function App() {
       {/* <Six/> */}
 
       {/* Build a timer that counts down from a specified time. */}
-      <Seven/>
+      {/* <Seven/> */}
+
+      {/* Implement a simple to-do list application with add and remove functionality */}
+      {/* <Eight /> */}
+
+      {/* Create a basic routing setup with a react router */}
+      <Nine/>
+
+      {/* Create a component that changes its backgroud coulor when clicked */}
+      {/* <Ten/> */}
     </>
   )
 }
