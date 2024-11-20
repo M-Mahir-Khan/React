@@ -11,6 +11,7 @@ import Ten from './components/Ten'
 import Nine from './components/Nine'
 import Eleven from './components/Eleven'
 import Twelve from './components/Twelve'
+import Thirteen from './components/Thirteen'
 function App() {
 
 
@@ -60,8 +61,12 @@ function App() {
       {/* <Eleven/> */}
 
 
-    {/* Build a file uploader component that allows users to upload images */}
-    <Twelve/>
+      {/* Build a file uploader component that allows users to upload images */}
+      {/* <Twelve /> */}
+
+
+      {/* Implement a basic authentication form with login and registration. */}
+      <Thirteen />
     </>
   )
 }
