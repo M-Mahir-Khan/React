@@ -12,6 +12,7 @@ import Nine from './components/Nine'
 import Eleven from './components/Eleven'
 import Twelve from './components/Twelve'
 import Thirteen from './components/Thirteen'
+import Fourteen from './components/Fourteen'
 function App() {
 
 
@@ -66,7 +67,11 @@ function App() {
 
 
       {/* Implement a basic authentication form with login and registration. */}
-      <Thirteen />
+      {/* <Thirteen /> */}
+
+
+      {/* Develop a weather app that fetches and displays weather information based on user's location */}
+      <Fourteen/>
     </>
   )
 }
