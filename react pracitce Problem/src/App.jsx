@@ -13,7 +13,11 @@ import Eleven from './components/Eleven'
 import Twelve from './components/Twelve'
 import Thirteen from './components/Thirteen'
 import Fourteen from './components/Fourteen'
+import Fifteen from './components/Fifteen'
 function App() {
+  
+  // this is for file Fifteen
+  const items = ["item1", "item2", "item3", "another Item", "expensive item"]
 
 
   return (
@@ -71,7 +75,10 @@ function App() {
 
 
       {/* Develop a weather app that fetches and displays weather information based on user's location */}
-      <Fourteen/>
+      {/* <Fourteen/> */}
+
+      {/* Build a search  bar that filters a list of items based on user input . */}
+      <Fifteen items={items} />
     </>
   )
 }
