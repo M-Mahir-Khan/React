@@ -14,9 +14,12 @@ import Twelve from './components/Twelve'
 import Thirteen from './components/Thirteen'
 import Fourteen from './components/Fourteen'
 import Fifteen from './components/Fifteen'
+import Sixteen from './components/Sixteen'
+import Seventeen from './components/Seventeen'
+import { Eighteen } from './components/Eighteen'
 function App() {
   
-  // this is for file Fifteen
+  // this is for file Fifteen and Sixteen
   const items = ["item1", "item2", "item3", "another Item", "expensive item"]
 
 
@@ -78,7 +81,19 @@ function App() {
       {/* <Fourteen/> */}
 
       {/* Build a search  bar that filters a list of items based on user input . */}
-      <Fifteen items={items} />
+      {/* <Fifteen items={items} /> */}
+
+
+      {/* Develop a pagination component to navigate through a large list of items */}
+      {/* <Sixteen items={items} itemsPerPage={2}/> */}
+
+
+      {/* Build a color Picker that allows users to select a color. */}
+      {/* <Seventeen/> */}
+
+
+      {/* Implement a responsive navigation menu with a hamburger icon. */}
+      <Eighteen/>
     </>
   )
 }
