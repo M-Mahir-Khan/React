@@ -17,8 +17,11 @@ import Fifteen from './components/Fifteen'
 import Sixteen from './components/Sixteen'
 import Seventeen from './components/Seventeen'
 import { Eighteen } from './components/Eighteen'
+import Nineteen from './components/Nineteen'
+import NineteethComp from './components/NineteethComp'
+import { ThemeProvider } from './components/ThemeContext'
 function App() {
-  
+
   // this is for file Fifteen and Sixteen
   const items = ["item1", "item2", "item3", "another Item", "expensive item"]
 
@@ -93,7 +96,16 @@ function App() {
 
 
       {/* Implement a responsive navigation menu with a hamburger icon. */}
-      <Eighteen/>
+      {/* <Eighteen/> */}
+
+
+      {/* Build a context provider that allowws users to switch between light and dark themes , and use the context in different parts of the app to apply the seclected theme. */}
+      <ThemeProvider>
+        <div className='App'>
+          <Nineteen />
+          <NineteethComp />
+        </div>
+      </ThemeProvider>
     </>
   )
 }
