@@ -20,6 +20,8 @@ import { Eighteen } from './components/Eighteen'
 import Nineteen from './components/Nineteen'
 import NineteethComp from './components/NineteethComp'
 import { ThemeProvider } from './components/ThemeContext'
+import Twinty from './components/Twinty'
+import { CartProvider } from './components/CartContext'
 function App() {
 
   // this is for file Fifteen and Sixteen
@@ -100,12 +102,18 @@ function App() {
 
 
       {/* Build a context provider that allowws users to switch between light and dark themes , and use the context in different parts of the app to apply the seclected theme. */}
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <div className='App'>
           <Nineteen />
           <NineteethComp />
         </div>
-      </ThemeProvider>
+      </ThemeProvider> */}
+
+
+      {/* Implement a shopping cart using context and a reducer, with features like adding , removing , and updating items in the cart. */}
+      <CartProvider>
+      <Twinty/>
+      </CartProvider>
     </>
   )
 }
