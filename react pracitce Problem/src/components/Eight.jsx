@@ -37,4 +37,3 @@ const Eight = () => {
 }
 
 export default Eight
-
