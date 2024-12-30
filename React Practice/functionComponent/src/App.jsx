@@ -7,7 +7,7 @@ import Img3 from './assets/image.png'
 
 
 function App() {
-
+  
   return (
     <div className='container'>
       <UseCard name="John" desc="Desc1"  image={Img1}/>
@@ -18,3 +18,4 @@ function App() {
 }
 
 export default App
+
