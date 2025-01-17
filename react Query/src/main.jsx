@@ -7,6 +7,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Products from './Products.jsx'
 import Product from './Product.jsx'
 
+
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
 const router = createBrowserRouter([
   {
       path: '/',
@@ -22,8 +27,12 @@ const router = createBrowserRouter([
   },
 ]);
 
+
+const queryClient = new QueryClient()
+
+
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+<QueryClientProvider client={queryClient}>
     <RouterProvider router={router}/>
-  </StrictMode>,
+</QueryClientProvider>
 )
