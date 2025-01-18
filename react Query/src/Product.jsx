@@ -6,15 +6,11 @@ const Product = () => {
   const params = useParams();
   console.log(params);
 
-
-
   const fetchProduct = async () => {
     const response = await fetch(`https://dummyjson.com/products/${params.productId}`)
     const data = await response.json()
     return data
   }
-
-
 
   const { isLoading, error, data: product } = useQuery({
     queryKey: ["product", params.productId],
@@ -34,7 +30,6 @@ if (error) {
 
 return (
   <div>Product : {product.title}</div>
-)
-}
+)}
 
 export default Product
