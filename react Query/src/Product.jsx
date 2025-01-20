@@ -37,7 +37,6 @@ const Product = () => {
   return (
     <>
       <div>Product : {product.title}</div>
-
       <button
       onClick={()=>{
         mutation.mutate({title:"Updated product"})
