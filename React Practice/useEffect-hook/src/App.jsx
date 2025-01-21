@@ -11,6 +11,7 @@ function App() {
   // const [count, setCount] = useState(0)
   // const [total, setTotal] = useState(1)
 
+  
   // useEffect
   // first --> side-effect function
   // second --> clean-up function
