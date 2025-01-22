@@ -11,7 +11,6 @@ function App() {
   // const [count, setCount] = useState(0)
   // const [total, setTotal] = useState(1)
 
-  
   // useEffect
   // first --> side-effect function
   // second --> clean-up function
@@ -35,6 +34,7 @@ function App() {
   //   alert("I will run every time when count is updated")
   // },[count])
 
+  
   // Variation 4
   // multiple dependencies
   // useEffect(()=>{
