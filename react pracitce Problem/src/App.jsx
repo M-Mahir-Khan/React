@@ -22,6 +22,7 @@ import NineteethComp from './components/NineteethComp'
 import { ThemeProvider } from './components/ThemeContext'
 import Twinty from './components/Twinty'
 import { CartProvider } from './components/CartContext'
+
 function App() {
 
   // this is for file Fifteen and Sixteen
@@ -52,6 +53,7 @@ function App() {
 
       {/* Create a Component that fetches data from an API and display it */}
       {/* <Six/> */}
+
 
 
       {/* Build a timer that counts down from a specified time. */}
