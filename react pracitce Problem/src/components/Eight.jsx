@@ -6,8 +6,8 @@ const Eight = () => {
     const [todos, setTodos] = useState([])
 
     function addTodo() {
-
         if (input.trim() !== "") {
+            
             setTodos([...todos, input])
             setInput("")
 
