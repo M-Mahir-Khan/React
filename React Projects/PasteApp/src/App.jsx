@@ -4,7 +4,6 @@ import Paste from "./components/Paste"
 import ViewPaste from "./components/ViewPaste"
 import Navbar from "./components/Navbar"
 
-
 const router = createBrowserRouter(
   [
     {
